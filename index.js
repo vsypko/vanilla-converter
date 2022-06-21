@@ -1,7 +1,7 @@
 import getConverterTable from "./data.js"
 import converter from "./converter.js"
 
-let converterTable = "currency"
+let converterTable = "measure"
 
 const selects = document.getElementsByTagName("select")
 const input = document.getElementById("input")
