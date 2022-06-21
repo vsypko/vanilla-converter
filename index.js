@@ -30,6 +30,10 @@ const setOptionsForSelects = async (selects, converterTable) => {
     rightSelectOption.text = i.unit
     selects[1].appendChild(rightSelectOption)
   })
+  converter(selects, input, converterTable)
+  selects[0].onchange = () => converter(selects, input, converterTable)
+  selects[1].onchange = () => converter(selects, input, converterTable)
+  input.oninput = () => converter(selects, input, converterTable)
 }
 
 await setOptionsForSelects(selects, converterTable)
@@ -37,6 +41,3 @@ await setOptionsForSelects(selects, converterTable)
 convertSelector.onchange = async (e) => {
   await setOptionsForSelects(selects, e.target.value)
 }
-selects[0].onchange = () => converter(selects, input, converterTable)
-selects[1].onchange = () => converter(selects, input, converterTable)
-input.oninput = () => converter(selects, input, converterTable)
