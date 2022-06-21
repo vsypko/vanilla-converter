@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <title>Vanilla Converter</title>
+</head>
+<body>
+  <header class="header">
+    <div class="title">
+      <img alt="converter" src="./assets/pngegg.png" id="header-logo" height="80%"/>
+      VANILLA CONVERTER
+    </div>
+    <div class="cylon_eye"></div>
+  </header>
+  <section>
+    <fieldset>
+      <p class="switch"> Select converter:</p>
+      <div class="switch-items">
+        <input type="radio" id="radiomeasurement" name="converter" value="measure" checked>
+        <label for="radiomeasurement">MEASURES</label>
+        <input type="radio" id="radiocurrency" name="converter" value="currency">
+        <label for="radiocurrency">CURRENCIES</label>
+      </div> 
+    </fieldset>
+    <div class="ticker-wrap">
+      <div class="ticker">
+        <div id="ticker-headline">
+          data will appear here
+        </div>
+      </div>
+    </div>
+    <div class="data">
+      <div class="form">
+        <select name="leftselect"></select>
+        <input type="number" id="input" name="input" autofocus/>
+      </div>
+      <div class="equal">=</div>
+      <div class="form">
+        <output type="number" id="output"></output>
+        <select name="rightselect"></select>
+      </div>
+    </div>
+    
+  </section>
+  <script type="module" src="index.js"></script>
+</body>
+</html>

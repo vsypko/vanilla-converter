@@ -1,0 +1,44 @@
+{
+"length":
+  [{
+    "unit":"inch",
+    "symbol":"in",
+    "value": 0.0254
+  },
+  {
+    "unit":"foot",
+    "symbol":"ft",
+    "value": 0.3047
+  },
+  {
+    "unit":"yard",
+    "symbol":"yd",
+    "value": 0.9144
+  },
+  {
+    "unit":"mile",
+    "symbol":"mi",
+    "value": 1609.344
+  },
+  {
+    "unit":"meter",
+    "symbol":"m",
+    "value": 1
+  },
+  {
+    "unit":"millimeter",
+    "symbol":"mm",
+    "value": 0.001
+  },
+  {
+    "unit":"centimeter",
+    "symbol":"cm",
+    "value": 0.01
+  },
+  {
+    "unit":"kilometer",
+    "symbol":"km",
+    "value": 1000
+  }
+]
+}

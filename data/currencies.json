@@ -1,0 +1,13 @@
+{
+  "CAD": {"c_sign": "$", "c_name": "Canadian Dollar"},
+  "CHF": {"c_sign": "₣", "c_name": "Swiss Franc"},
+  "EUR": {"c_sign": "€", "c_name": "Euro"},
+  "GBP": {"c_sign": "£", "c_name": "British Pound Sterling"},
+  "GEL": {"c_sign": "₾", "c_name": "Georgian Lari"},
+  "ILS": {"c_sign": "₪", "c_name": "Israeli New Sheqel"},
+  "PLN": {"c_sign": "zł", "c_name": "Polish Zloty"},
+  "RUB": {"c_sign": "₽", "c_name": "Russian Ruble"},
+  "TRY": {"c_sign": "₺", "c_name": "Turkish Lira"},
+  "UAH": {"c_sign": "₴", "c_name": "Ukrainian Hryvnia"},
+  "USD": {"c_sign": "$", "c_name": "United States Dollar"}
+}
