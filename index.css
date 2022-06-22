@@ -79,12 +79,16 @@
   animation: 6s linear 3s infinite alternate move_eye;
   -webkit-animation: 6s linear 3s infinite alternate move_eye;
 }
+section {
+  font-family: 'Roboto', sans-serif;
+}
+
 fieldset {
   border: none;
 }
+
 .switch {
   color: #282c39;
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 40px;
   display: flex;
