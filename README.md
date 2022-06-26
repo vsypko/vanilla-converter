@@ -1,3 +1,3 @@
 # vanilla-converter
-Done as a test job for hire\
+test task for a job applying\
 Look at: https://vsypko.github.io/vanilla-converter/ \
